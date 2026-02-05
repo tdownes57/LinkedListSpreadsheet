@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Form1Dmode2Dmanager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormDemo1DVertical.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormSimpleDemo1DHorizontal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormSimpleDemo1D_Backup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormSimpleDemoOfCSharp1D.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormTestRSC_Obselete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormWhichTesting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LinkLabelTwoChar.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="DLLUserControlRichbox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="DLLUserControlTextbox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserOperationOriginal.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserOperationRedux.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
