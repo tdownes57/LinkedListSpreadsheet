@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Form1.cs" />
+    <Compile Remove="Form1.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="FormTestTwoLists2x2.resx" />
+    <EmbeddedResource Remove="UserOperationRedux.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="FormTestTwoLists2x2.Designer.vb" />
+    <None Remove="FormTestTwoLists2x2.vb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RSCLibraryDLLOperations\RSCLibraryDLLOperations.csproj" />
+  </ItemGroup>
+
+</Project>
